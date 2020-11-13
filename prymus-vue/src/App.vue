@@ -55,7 +55,7 @@
 	 onRemove: function (participant){
 		this.participants = this.participants.filter((p) => { return p.id !== participant.id});
 	 }
-		 }
+		 }//
 		}
 </script>
 
